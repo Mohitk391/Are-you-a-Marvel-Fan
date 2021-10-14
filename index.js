@@ -74,9 +74,11 @@ function quiz(question, answer){
   if(yourAnswer.toUpperCase() === answer.toUpperCase()){
     score++;
     console.log(`You're correct!!`);
+    console.log(`You current score is : ${score}`);
   }
   else {
     console.log(`You're Wrong. It's ${answer}`);
+    console.log(`You current score is : ${score}`);
   }
 }
 var length = Questions.length;
